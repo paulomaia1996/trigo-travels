@@ -26,20 +26,17 @@ export default function Home() {
           </div>
           <a className="nav-cta" href="#contato">Planejar viagem <span>↗</span></a>
         </nav>
-        <div className="hero-content container">
-          <p className="eyebrow light">TriGo Travel · três amigas, mil destinos</p>
-          <h1>Três amigas.<br /><em>Mil destinos.</em></h1>
-          <p className="hero-copy">Roteiros feitos com escuta, afeto e atenção aos detalhes para você colecionar histórias pelo mundo.</p>
+        <div className="hero-content hero-action container">
+          <h1 className="sr-only">O mundo fica mais perto daqui.</h1>
           <a className="button button-light" href="#contato">Comece a planejar <span>→</span></a>
         </div>
-        <div className="hero-bottom container"><span>01 — 05</span><span>Descubra o seu próximo lugar</span><span className="scroll">role para explorar ↓</span></div>
       </section>
 
       <section className="intro container" id="sobre">
         <p className="eyebrow">muito além de uma passagem</p>
         <div className="intro-grid">
           <h2>Viagens que você<br />vai <em>lembrar para sempre.</em></h2>
-          <div><img className="identity-mark" src="/trigo-travel-identidade.jpg" alt="TriGo Travel — Três amigas, mil destinos" /><p>Na TriGo Travel, cada roteiro nasce de uma conversa. Entendemos seu jeito de viajar e transformamos vontade em uma experiência que parece ter sido feita sob medida — porque foi.</p><a className="text-link" href="#contato">Conheça nosso jeito de viajar <span>→</span></a></div>
+          <div><p>Na TriGo Travel, cada roteiro nasce de uma conversa. Entendemos seu jeito de viajar e transformamos vontade em uma experiência que parece ter sido feita sob medida — porque foi.</p><a className="text-link" href="#contato">Conheça nosso jeito de viajar <span>→</span></a></div>
         </div>
       </section>
 
@@ -63,7 +60,7 @@ export default function Home() {
 
       <section className="contact" id="contato"><div className="container contact-grid"><div><p className="eyebrow">vamos conversar</p><h2>Para onde<br />o seu coração<br /><em>quer ir?</em></h2><div className="contact-links"><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer"><small>WhatsApp</small><span>(21) 96726-0597 ↗</span></a><a href="https://instagram.com/trigo.travel" target="_blank" rel="noreferrer"><small>Instagram</small><span>@trigo.travel ↗</span></a></div></div><form onSubmit={handleSubmit}><label htmlFor="name">Como podemos te chamar?</label><input id="name" name="name" placeholder="Seu nome" required /><label htmlFor="dream">Qual viagem você sonha fazer?</label><input id="dream" name="dream" placeholder="Conte um pouquinho" required /><button className="button button-dark" type="submit">Quero conversar <span>→</span></button>{sent && <p className="form-success" role="status">Obrigada! Em breve entraremos em contato.</p>}</form></div></section>
 
-      <footer><div className="container footer-content"><a className="brand" href="#inicio"><span>TriGo</span><small>TRAVEL</small></a><p>Três amigas, mil destinos.</p><div className="footer-links"><a href="https://instagram.com/trigo.travel" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer">WhatsApp</a></div></div></footer>
+      <footer><div className="container footer-content"><a className="brand" href="#inicio"><span>TriGo</span><small>TRAVEL</small></a><p>O mundo fica mais perto daqui.</p><div className="footer-links"><a href="https://instagram.com/trigo.travel" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer">WhatsApp</a></div></div></footer>
     </main>
   );
 }
