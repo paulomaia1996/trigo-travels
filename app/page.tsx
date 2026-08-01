@@ -20,7 +20,7 @@ export default function Home() {
     <main>
       <section className="hero" id="inicio">
         <nav className="nav container" aria-label="Navegação principal">
-          <a className="brand" href="#inicio" aria-label="Trigo Travels, início"><span>trigo</span> travels</a>
+          <a className="brand brand-image" href="#inicio" aria-label="TriGo Travel, início"><img src="/trigo-logo.jpg" alt="TriGo Travel" /></a>
           <div className="nav-links">
             <a href="#destinos">Destinos</a><a href="#experiencias">Experiências</a><a href="#sobre">A agência</a>
           </div>
@@ -63,7 +63,7 @@ export default function Home() {
 
       <section className="contact" id="contato"><div className="container contact-grid"><div><p className="eyebrow">vamos conversar</p><h2>Para onde<br />o seu coração<br /><em>quer ir?</em></h2><div className="contact-links"><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer"><small>WhatsApp</small><span>(21) 96726-0597 ↗</span></a><a href="https://instagram.com/trigo.travel" target="_blank" rel="noreferrer"><small>Instagram</small><span>@trigo.travel ↗</span></a></div></div><form onSubmit={handleSubmit}><label htmlFor="name">Como podemos te chamar?</label><input id="name" name="name" placeholder="Seu nome" required /><label htmlFor="dream">Qual viagem você sonha fazer?</label><input id="dream" name="dream" placeholder="Conte um pouquinho" required /><button className="button button-dark" type="submit">Quero conversar <span>→</span></button>{sent && <p className="form-success" role="status">Obrigada! Em breve entraremos em contato.</p>}</form></div></section>
 
-      <footer><div className="container footer-content"><a className="brand" href="#inicio"><span>trigo</span> travels</a><p>O mundo é grande. A sua próxima história também.</p><div className="footer-links"><a href="https://instagram.com/trigo.travel" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer">WhatsApp</a></div></div></footer>
+      <footer><div className="container footer-content"><a className="brand brand-image" href="#inicio" aria-label="TriGo Travel, início"><img src="/trigo-logo.jpg" alt="TriGo Travel" /></a><p>O mundo é grande. A sua próxima história também.</p><div className="footer-links"><a href="https://instagram.com/trigo.travel" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer">WhatsApp</a></div></div></footer>
     </main>
   );
 }
