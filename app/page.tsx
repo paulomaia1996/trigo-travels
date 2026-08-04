@@ -3,9 +3,9 @@
 import { FormEvent, useState } from "react";
 
 const destinations = [
-  { city: "Santorini", country: "Grécia", image: "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?auto=format&fit=crop&w=1200&q=85", tag: "Romance", price: "a partir de R$ 6.890" },
-  { city: "Lençóis Maranhenses", country: "Brasil", image: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1200&q=85", tag: "Natureza", price: "a partir de R$ 2.490" },
-  { city: "Patagônia", country: "Argentina & Chile", image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85", tag: "Aventura", price: "a partir de R$ 7.240" },
+  { city: "Santorini", country: "Grécia", image: "https://images.unsplash.com/photo-1530841377377-3ff06c0ca713?auto=format&fit=crop&w=1200&q=85", tag: "Romance" },
+  { city: "Lençóis Maranhenses", country: "Brasil", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Dunas_e_lagoas_dos_Len%C3%A7ois_Maranhenses..jpg/1280px-Dunas_e_lagoas_dos_Len%C3%A7ois_Maranhenses..jpg", tag: "Natureza", credit: "Heris Luiz Cordeiro Rocha / Wikimedia Commons" },
+  { city: "Patagônia", country: "Argentina & Chile", image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85", tag: "Aventura" },
 ];
 
 export default function Home() {
@@ -49,9 +49,10 @@ export default function Home() {
           {destinations.map((destination, index) => <article className={`destination destination-${index + 1}`} key={destination.city}>
             <img src={destination.image} alt={`Vista de ${destination.city}`} />
             <div className="destination-shade" />
-            <div className="destination-info"><span className="tag">{destination.tag}</span><div><p>{destination.country}</p><h3>{destination.city}</h3><strong>{destination.price}</strong></div></div>
+            <div className="destination-info"><span className="tag">{destination.tag}</span><div><p>{destination.country}</p><h3>{destination.city}</h3>{destination.credit && <a className="photo-credit" href="https://commons.wikimedia.org/wiki/File:Dunas_e_lagoas_dos_Len%C3%A7ois_Maranhenses..jpg" target="_blank" rel="noreferrer">Foto: {destination.credit}</a>}</div></div>
           </article>)}
         </div>
+        <p className="price-note container">Valores personalizados e sujeitos a alteração conforme período, disponibilidade e cotação.</p>
       </section>
 
       <section className="experiences container" id="experiencias">
