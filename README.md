@@ -1,4 +1,34 @@
-# vinext-starter
+# Trigo Travel
+
+## Status da publicação — 22/08/2026
+
+O domínio oficial `trigotravel.com.br` já foi adicionado à conta Cloudflare no plano **Free** (sem cobrança). O site continua hospedado no Worker `trigo-travel`.
+
+### Pendente da dona do domínio
+
+Entrar na conta do domínio no [Registro.br](https://registro.br/) e, na área de **DNS / servidores DNS**, substituir os servidores atuais:
+
+- `a.auto.dns.br`
+- `b.auto.dns.br`
+
+por estes servidores fornecidos pelo Cloudflare:
+
+- `aida.ns.cloudflare.com`
+- `leif.ns.cloudflare.com`
+
+Se houver uma opção de **DNSSEC**, ela deve ficar desativada durante essa troca. Não é necessário nos passar senha, código de acesso ou qualquer dado pessoal — basta ela realizar a alteração e avisar quando salvar.
+
+### Próximas etapas após a troca
+
+1. Aguardar o Cloudflare identificar os novos DNS (pode levar alguns minutos; a propagação completa pode levar mais tempo).
+2. Associar `trigotravel.com.br` ao Worker `trigo-travel`.
+3. Publicar a versão atual do site, já padronizada como **Trigo Travel** e com os destaques revisados.
+
+Enquanto isso, o endereço técnico provisório é `https://trigo-travel.trigotravel.workers.dev`.
+
+---
+
+# Base técnica
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
