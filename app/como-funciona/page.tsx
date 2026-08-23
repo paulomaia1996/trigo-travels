@@ -15,6 +15,7 @@ export default function ComoFunciona() {
         <p className="eyebrow">o jeito trigo de viajar</p>
         <h1>Uma viagem começa<br />com uma boa <em>conversa.</em></h1>
         <p>Você conta o que imagina. A gente escuta, pesquisa e organiza cada etapa com calma — para que o seu tempo seja dedicado ao que importa: viver a experiência.</p>
+        <a className="button button-outline" href="/">← Voltar para a home</a>
       </section>
 
       <section className="how-steps">
