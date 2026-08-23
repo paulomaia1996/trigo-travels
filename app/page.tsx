@@ -22,7 +22,7 @@ export default function Home() {
         <nav className="nav container" aria-label="Navegação principal">
           <a className="brand brand-image" href="#inicio" aria-label="TriGo Travel, início"><img src="/trigo-logo.jpg" alt="TriGo Travel" /></a>
           <div className="nav-links">
-            <a href="#destinos">Destinos</a><a href="#experiencias">Experiências</a><a href="#sobre">A agência</a>
+            <a href="#destinos">Destinos</a><a href="#experiencias">Experiências</a><a href="/como-funciona">Como funciona</a><a href="#sobre">A agência</a>
           </div>
           <a className="nav-cta" href="#contato">Planejar viagem <span>↗</span></a>
         </nav>
