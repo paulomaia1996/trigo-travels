@@ -37,7 +37,7 @@ export default function ComoFunciona() {
         <a className="button button-dark" href="https://wa.me/5521967260597" target="_blank" rel="noreferrer">Começar uma conversa <span>→</span></a>
       </section>
 
-      <footer><div className="container footer-content"><a className="brand brand-image" href="/" aria-label="TriGo Travel, início"><img src="/trigo-logo.jpg" alt="TriGo Travel" /></a><p>O mundo é grande. A sua próxima história também.</p><div className="footer-links"><a href="https://instagram.com/trigo.travel" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer">WhatsApp</a></div></div></footer>
+      <footer><div className="container footer-content"><a className="brand brand-image" href="/" aria-label="TriGo Travel, início"><img src="/trigo-logo.jpg" alt="TriGo Travel" /></a><p>O mundo é grande. A sua próxima história também.</p><div className="footer-links"><a href="https://www.instagram.com/trigo.travel/" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/5521967260597" target="_blank" rel="noreferrer">WhatsApp</a></div></div></footer>
     </main>
   );
 }
