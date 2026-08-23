@@ -39,7 +39,7 @@ export default function Home() {
         <p className="eyebrow">muito além de uma passagem</p>
         <div className="intro-grid">
           <h2>Viagens que você<br />vai <em>lembrar para sempre.</em></h2>
-          <div><p>Na Trigo, cada roteiro nasce de uma conversa. Entendemos seu jeito de viajar e transformamos vontade em uma experiência feita totalmente sob medida e com muito cuidado.</p><a className="text-link" href="#contato">Conheça nosso jeito de viajar <span>→</span></a></div>
+          <div><p>Na Trigo, cada roteiro nasce de uma conversa. Entendemos seu jeito de viajar e transformamos vontade em uma experiência feita totalmente sob medida e com muito cuidado.</p><a className="text-link" href="/como-funciona">Conheça nosso jeito de viajar <span>→</span></a></div>
         </div>
       </section>
 
