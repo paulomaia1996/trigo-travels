@@ -32,7 +32,7 @@ export default function Home() {
           <p className="hero-copy">Roteiros autorais, hotéis que contam histórias e cada detalhe cuidado por quem ama viajar.</p>
           <a className="button button-light" href="#contato">Comece a planejar <span>→</span></a>
         </div>
-        <div className="hero-bottom container"><span>01 — 05</span><span>Descubra o seu próximo lugar</span><span className="scroll">role para explorar ↓</span></div>
+        <div className="hero-bottom container"><span>Descubra o seu próximo lugar</span><span className="scroll">role para explorar ↓</span></div>
       </section>
 
       <section className="intro container" id="sobre">
